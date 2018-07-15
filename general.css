@@ -9,6 +9,8 @@ text-align:center;
 ul {
     display:flex;
     justify-content:center;
+    height:300px;
+    justify-content:100px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,4 +36,14 @@ li a:hover {
   transform:rotate(45deg);
   transition:2s;
   background-color: grey;
+}
+#navbar{
+    margin:0;
+    padding: 0;
+    height: 500px;
+     align-items: center;
+}
+#par{
+    display:flex;
+     justify-content: center;
 }
